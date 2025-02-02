@@ -1,0 +1,112 @@
+@import url(/assets/reset.css);
+@keyframes linearGradient{}
+
+ body{
+    margin: 0%;
+    background: #000;
+ }
+.banner{
+    width:  auto;  
+    height: 605px;
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(49, 168, 221, .2), rgba(0, 0, 0, .6)), url('/assets/images/banner.png');
+    margin-bottom: 16px;
+    border-bottom: 1px solid #33A8DB;
+    padding: 60px 0px 0px;   
+
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    background-size: cover;   
+}
+.banner .logo img{
+    width: 268px;
+    height: 268px;
+    background-color: rgba(0, 0, 0, .1);
+    border-radius: 100%;   
+    object-fit: contain;
+     }
+.banner .banner-content{    
+    width: 510px;
+    text-align: center;
+    height: 393px; 
+}
+h1{
+    color: transparent;
+    font-weight: 900;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    background: -webkit-linear-gradient(#33A8DB, #1472B7);
+    -webkit-background-clip: text;
+    
+
+}      
+.banner p {
+    color: #fff;
+    font-size: 20px;
+    letter-spacing: 0px;   
+} 
+button{
+    padding: 16px 40px;
+    color: #31A8DD;
+    border: 2px solid #33A8DB;
+    background-color: transparent;
+    font-size: 16px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+button:hover{
+    background-color: #ffffff3a;
+}
+main{
+    color:#fff;
+    
+}
+section{
+    margin: 100px auto;
+    
+    
+}
+#course-content{
+     
+    border-bottom: 1px solid #33A8DB;  
+    display: grid;
+    justify-content:center;
+    justify-items: center;   
+    
+}
+#course-content h2{
+    color: #33A8DB;
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    
+}
+#course-content p{
+    text-align: center;
+    color: white;
+    font-size: 16px; 
+    padding-bottom: 30px;
+    width: 800px;
+}
+
+span{
+    color: #33A8DB;
+}
+.modules-list .module{
+    margin: 0% auto 24px;
+    width: 535px;
+    padding: 16px 0px;
+    border: 1px solid #33A8DB;
+    border-radius: 40px;
+    text-align: center;
+    align-content: center;
+    background-color: #252525;
+    box-shadow: inset -3px 3px #000000B3;
+    
+    
+}
